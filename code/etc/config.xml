@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * This file is part of Mbiz_RobotsTxt for Magento.
+ *
+ * @license All rights reserved.
+ * @author Léo Peltier <l.peltier@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_RobotsTxt
+ * @copyright Copyright (c) 2013 Monsieur Biz (http://monsieurbiz.com/)
+ */
+-->
+<config>
+    <modules>
+        <Mbiz_RobotsTxt>
+            <version>0.0.1</version>
+        </Mbiz_RobotsTxt>
+    </modules>
+</config>
