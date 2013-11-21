@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * This file is part of Mbiz_RobotsTxt for Magento.
+ *
+ * @license All rights reserved.
+ * @author Léo Peltier <l.peltier@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_RobotsTxt
+ * @copyright Copyright (c) 2013 Monsieur Biz (http://monsieurbiz.com/)
+ */
+-->
+<config>
+    <sections>
+        <web>
+            <groups>
+                <seo>
+                    <fields>
+                        <robots_txt translate="label">
+                            <label>robots.txt</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <backend_model>mbiz_robotstxt/robotsTxt</backend_model>
+                            <comment><![CDATA[More info on the <a href="https://en.wikipedia.org/wiki/Robots.txt">Wikipedia entry for robots.txt</a>.]]></comment>
+                        </robots_txt>
+                    </fields>
+                </seo>
+            </groups>
+        </web>
+    </sections>
+</config>

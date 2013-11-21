@@ -13,7 +13,14 @@
 <config>
     <modules>
         <Mbiz_RobotsTxt>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </Mbiz_RobotsTxt>
     </modules>
+    <global>
+        <models>
+            <mbiz_robotstxt>
+                <class>Mbiz_RobotsTxt_Model</class>
+            </mbiz_robotstxt>
+        </models>
+    </global>
 </config>
