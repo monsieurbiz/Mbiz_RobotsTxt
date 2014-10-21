@@ -10,6 +10,11 @@
             "name": "Léo Peltier",
             "email": "l.peltier@monsieurbiz.com",
             "homepage": "http://leo-peltier.fr/"
+        },
+        {
+            "name": "Jacques Bodin-Hullin",
+            "email": "j.bodinhullin@monsieurbiz.com",
+            "homepage": "http://jacques.sh/"
         }
     ],
     "require": {

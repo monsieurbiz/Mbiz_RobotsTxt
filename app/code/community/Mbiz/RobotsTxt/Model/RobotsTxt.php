@@ -10,6 +10,7 @@
  */
 class Mbiz_RobotsTxt_Model_RobotsTxt extends Mage_Core_Model_Config_Data
 {
+
     /**
      * @return string robots.txt file path.
      */
@@ -18,20 +19,22 @@ class Mbiz_RobotsTxt_Model_RobotsTxt extends Mage_Core_Model_Config_Data
         return Mage::getBaseDir('base') . '/robots.txt';
     }
 
-
-    /// Rewrite robots.txt when the configuration is saved.
+    /**
+     * Rewrite robots.txt when the configuration is saved.
+     */
     protected function _beforeSave()
     {
         parent::_beforeSave();
+
         $contents = $this->getValue();
         $ret = file_put_contents($this->getRobotsTxtPath(), $contents);
 
-        if ($ret === false)
+        if ($ret === false) {
             throw new Exception('Failed to write robots.txt.');
+        }
 
         return $this;
     }
-
 
     /**
      * Load the value directly from the robots.txt file.
@@ -42,11 +45,14 @@ class Mbiz_RobotsTxt_Model_RobotsTxt extends Mage_Core_Model_Config_Data
     protected function _afterLoad()
     {
         parent::_afterLoad();
+
         $path = $this->getRobotsTxtPath();
 
-        if(file_exists($path))
+        if(file_exists($path)) {
             $this->setValue(file_get_contents($path));
-        else
+        } else {
             $this->setValue('');
+        }
     }
+
 }

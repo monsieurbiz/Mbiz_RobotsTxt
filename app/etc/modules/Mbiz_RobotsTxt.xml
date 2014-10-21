@@ -14,7 +14,7 @@
     <modules>
         <Mbiz_RobotsTxt>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Mbiz_RobotsTxt>
     </modules>
 </config>

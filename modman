@@ -1,2 +1,2 @@
-code               app/code/local/Mbiz/RobotsTxt
-Mbiz_RobotsTxt.xml app/etc/modules/Mbiz_RobotsTxt.xml
+app/code/community/Mbiz/RobotsTxt app/code/community/Mbiz/RobotsTxt
+app/etc/modules/Mbiz_RobotsTxt.xml app/etc/modules/Mbiz_RobotsTxt.xml
